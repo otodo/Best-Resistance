@@ -1,0 +1,10 @@
+C:\Documents and Settings\yuichi\Local Settings\Application Data\Temporary Projects\BestChoiceResistor\bin\Debug\BestChoiceResistor.exe
+C:\Documents and Settings\yuichi\Local Settings\Application Data\Temporary Projects\BestChoiceResistor\bin\Debug\BestChoiceResistor.pdb
+C:\Documents and Settings\yuichi\Local Settings\Application Data\Temporary Projects\BestChoiceResistor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yuichi\Local Settings\Application Data\Temporary Projects\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.exe
+C:\Documents and Settings\yuichi\Local Settings\Application Data\Temporary Projects\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.pdb
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.exe
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.pdb
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Debug\BestChoiceResistor.exe
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Debug\BestChoiceResistor.pdb
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Debug\ResolveAssemblyReference.cache

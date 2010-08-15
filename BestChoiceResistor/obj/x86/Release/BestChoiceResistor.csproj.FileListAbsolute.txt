@@ -1,0 +1,5 @@
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Release\BestChoiceResistor.exe
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Release\BestChoiceResistor.pdb
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Release\ResolveAssemblyReference.cache
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Release\BestChoiceResistor.exe
+d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Release\BestChoiceResistor.pdb

@@ -8,3 +8,8 @@ d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor
 d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Debug\BestChoiceResistor.exe
 d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\bin\Debug\BestChoiceResistor.pdb
 d:\mydocuments\visual studio 2010\Projects\BestChoiceResistor\BestChoiceResistor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C Sharp\Git\Best-Resistance\BestChoiceResistor\bin\Debug\BestChoiceResistor.exe
+D:\C Sharp\Git\Best-Resistance\BestChoiceResistor\bin\Debug\BestChoiceResistor.pdb
+D:\C Sharp\Git\Best-Resistance\BestChoiceResistor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C Sharp\Git\Best-Resistance\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.exe
+D:\C Sharp\Git\Best-Resistance\BestChoiceResistor\obj\x86\Debug\BestChoiceResistor.pdb

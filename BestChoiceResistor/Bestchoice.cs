@@ -10,16 +10,32 @@ namespace BestChoiceResistor
     {
         static void Main(string[] args)
         {
-            Console.Write("output voltage (Vo) = ");
-            double vo = double.Parse(Console.ReadLine());
-            Console.Write("Reference voltage (Vref) = ");
-            double vref = double.Parse(Console.ReadLine());
+            double vo, vref = 1;
 
-            Choice ru = new Choice(vref, vo);
-            ru.calcresult();
-            ru.bestr();
-            Console.ReadLine();
-            
+            do
+            {
+                Console.WriteLine("If you want to quit this program, please input 0 at Vo");
+                Console.Write("output voltage (Vo) = ");
+                vo = double.Parse(Console.ReadLine());
+                if (vo == 0)
+                {
+                    break;
+                }
+                Console.Write("Reference voltage (Vref) = ");
+                vref = double.Parse(Console.ReadLine());
+                if (vo<=vref)
+                {
+                    Console.WriteLine("Error: Vo <= Vref!!\n");
+                }
+            } while (vo <= vref);
+            if (vo != 0)
+            {
+                Choice ru = new Choice(vref, vo);
+                ru.calcresult();
+                ru.bestr();
+                Console.ReadLine();
+            }
+                        
         }
     }
 
@@ -54,7 +70,6 @@ namespace BestChoiceResistor
             this.vref = vref;
             this.vo = vo;
             calc();
-            //bestr();
         }
 
         public void testwrite()
@@ -85,7 +100,7 @@ namespace BestChoiceResistor
                 r[count].rdd = rd;
                 r[count].ruu = ans;
 
-                /*96系列のテーブルは10^(1)のため、10^(2)や10^(-1)といった計算がそのままでは出来ないため、
+                /*96系列のテーブルは10^(0)のため、10^(2)や10^(-1)といった計算がそのままでは出来ないため、
                  * 一旦10^(1)に変換してやる
                  */
                 int ansdigit = (int) Math.Floor(Math.Log10(ans));
@@ -96,10 +111,10 @@ namespace BestChoiceResistor
                 double Rnear = 1.0;
                 foreach (double Rn in Re96)
                 {
-                    double tollerance = Math.Abs((Rn - ansp) / Rn);
-                    if (tol > tollerance)
+                    double Rntol = Math.Abs((Rn - ansp) / Rn);
+                    if (tol > Rntol)
                     {
-                        tol = tollerance;
+                        tol = Rntol;
                         Rnear = Rn;
                     }
                 }
@@ -110,8 +125,6 @@ namespace BestChoiceResistor
                 //r[count].toll = tol; //真値の抵抗値との公差
                 r[count].toll = Math.Abs(vo-(vref*(1+Rnear/rd)))/vo;
                 
-                //Console.WriteLine("Rd = {0:f2},\t Ru = {1:f} ≒ {2:f},\t tolerance = {3:e2} %",
-                    //r[count].rdd,r[count].ruu,r[count].runear,r[count].toll*100);
                 count++;
 
             }
